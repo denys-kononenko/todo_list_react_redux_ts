@@ -1,0 +1,22 @@
+.TodoItem {
+  display: flex;
+  align-items: center;
+
+  &__checkbox {
+    margin-right: 10px;
+  }
+
+  &__title {
+    flex-grow: 1;
+    margin-right: 10px;
+    overflow: hidden;
+  }
+
+  &__buttons {
+    display: flex;
+  }
+
+  &__completed {
+    text-decoration: line-through;
+  }
+}

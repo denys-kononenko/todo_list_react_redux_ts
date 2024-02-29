@@ -1,0 +1,25 @@
+.App {
+  padding-top: 200px;
+
+  &__list-wrapper {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  &__input-wrapper {
+    display: flex;
+    margin-bottom: 5px;
+  }
+
+  &__input {
+    flex-grow: 1;
+  }
+
+  &__buttons {
+    align-self: center;
+  }
+}
