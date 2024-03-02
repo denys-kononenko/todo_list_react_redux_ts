@@ -1,5 +1,7 @@
 .App {
-  padding-top: 200px;
+  padding: 100px 30px;
+  max-height: 100vh;
+  box-sizing: border-box;
 
   &__list-wrapper {
     display: flex;

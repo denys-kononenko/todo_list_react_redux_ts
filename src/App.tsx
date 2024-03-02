@@ -78,8 +78,13 @@ function App() {
 
   const handleSwitchChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     setIsTextareaShown(event.target.checked);
-    textareaRef.current?.focus();
   }
+
+  useEffect(() => {
+    if (isTextareaShown) {
+    textareaRef.current?.focus();
+    }
+  }, [isTextareaShown])
 
   return (
     <div className="App">

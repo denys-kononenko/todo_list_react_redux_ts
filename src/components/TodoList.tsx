@@ -1,3 +1,4 @@
+import '../styles/TodoList.scss';
 import { TodoItem } from './TodoItem';
 import { Todo } from '../types/Todo';
 
