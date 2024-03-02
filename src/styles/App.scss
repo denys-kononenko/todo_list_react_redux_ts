@@ -1,6 +1,6 @@
 .App {
   padding: 100px 30px;
-  max-height: 100vh;
+  height: 100vh;
   box-sizing: border-box;
 
   &__list-wrapper {
@@ -9,6 +9,7 @@
     row-gap: 20px;
     width: 100%;
     max-width: 400px;
+    max-height: calc(100vh - 200px);
     margin: 0 auto;
   }
 
