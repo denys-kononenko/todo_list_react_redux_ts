@@ -60,7 +60,7 @@ function App() {
     }
 
     dispatch(addTodo({
-      id: todos.items.length + 1,
+      id: Date.now(),
       title: title.trim(),
       description: isTextareaShown ? description.trim() : '',
       completed: false,
